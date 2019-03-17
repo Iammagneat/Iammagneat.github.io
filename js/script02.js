@@ -1,15 +1,4 @@
-/*
-var person = {
-  firstName: "John",
-  lastName: "Doe"
-};
-
-alert(
-  person.firstName
-);
-*/
-
-var person = {
+  var person = {
   firstName: "Bill",
   lastName: "Jackson",
   age: 25

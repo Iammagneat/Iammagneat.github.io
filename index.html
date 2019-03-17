@@ -23,7 +23,7 @@
 
 
 <div>
-  <h2>Some internal js object that is impossssible to export to separate js file!</h2>
+  <h2>Some internal js object that is impossssible to export to separate js file</h2>
   <p id="par3"></p>
 </div>
 <script>
@@ -39,6 +39,21 @@ document.getElementById("par3").innerHTML = person.fullName();
 </script>
 
 <script src="js/script02.js"></script>
+<br>
+
+<div>
+  <h2>Expresstion This:</h2>
+  <p id="par4"></p>
+<script>
+var test = {
+  age: 41,
+  blabla: function() {
+    return this.age;
+  },
+};
+document.getElementById("par4").innerHTML=(test.blabla());
+</script>
+</div>
 
 
 </body>
