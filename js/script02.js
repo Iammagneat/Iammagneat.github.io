@@ -5,5 +5,5 @@
 };
 
 alert (
-  person.firstName + " is " + person.age
+  '04 - ' + person.firstName + " is " + person.age + " and EXTERNAL scripts don't run inside divs."
 );
