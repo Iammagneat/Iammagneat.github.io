@@ -1,8 +1,9 @@
-var person = {
-  firstName: "John",
-  lastName: "Doe"
+  var person = {
+  firstName: "Bill",
+  lastName: "Jackson",
+  age: 25
 };
 
-alert(
-  person.firstName
+alert (
+  '04 - ' + person.firstName + " is " + person.age + " and EXTERNAL scripts don't run inside divs."
 );

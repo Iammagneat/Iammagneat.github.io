@@ -5,41 +5,74 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script01.js"></script>
 </head>
+<!--Блаблабла-->
 <body>
 
-<div>
-  <h2>Link to a js file is in Head</h2>
+<div id="feat.01">
+  <h2>01 - Link to a js file is in Head</h2>
   <p id="par1">This is a Paragraph!</p>
   <button onclick="changeThis1()">Try it</button>
   <br><br>
 </div>
 
-<div>
-  <h2>Link to a js file is in body</h2>
+<div id="feat.02">
+  <h2>02 - Link to a js file is in body</h2>
   <p id="par2">Let's change this text.</p>
   <button onclick="changeIt2()">Клац!</button>
   <br><br>
 </div>
 
-
-<div>
-  <h2>Some internal js object that is impossssible to export to separate js file!</h2>
+<div id="feat.03">
+  <h2>03 - Expression <em>This</em> is internal object that is impossssible to export to separate js file</h2>
   <p id="par3"></p>
+  <script>
+    var person = {
+      firstName: "Mike",
+      lastName: "Juggernaut",
+      id: 5566,
+      fullName: function() {
+        return this.firstName + " " + this.lastName;
+      }
+    };
+    document.getElementById("par3").innerHTML = person.fullName();
+  </script>
 </div>
-<script>
-  var person = {
-    firstName: "Mike",
-    lastName: "Juggernaut",
-    id: 5566,
-    fullName: function() {
-      return this.firstName + " " + this.lastName;
-    }
-  };
-document.getElementById("par3").innerHTML = person.fullName();
-</script>
 
-<script src="js/script02.js" charset="utf-8"></script>
+<div id="feat.04>"
+  </div><br>
+<script src="js/script02.js"></script>
 
+<div id="feat.05">
+  <h2>05 - Again expresstion <em>This</em>:</h2>
+  <p id="par4"></p>
+  <script>
+    var test = {
+      age: 41,
+      blabla: function() {
+        return this.age;
+      },
+    };
+  document.getElementById("par4").innerHTML=(test.blabla());
+  </script>
+</div><br>
+
+<div id="feat.06">
+  <button onclick="this.innerHTML=Date()">06 - The time is?</button>
+  <br><br>
+</div>
+
+<div id="feat.07">
+  <button onclick="alert('Hello!')">07 - Hello?</button>
+  <br><br>
+</div>
+
+<!--сделать фон белым по нажатию кнопки-->
+<!--
+<div id="feat.08"> <
+  <script src="js/script03.js"></script>
+  <button onclick="BgWhite1()">08 - Да будет свет!</button>
+</div>
+-->
 
 </body>
 </html>
