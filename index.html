@@ -7,17 +7,37 @@
 </head>
 <body>
 
-<h2>Link to a js file is in Head</h2>
+<div>
+  <h2>Link to a js file is in Head</h2>
+  <p id="par1">This is a Paragraph!</p>
+  <button onclick="changeThis1()">Try it</button>
+  <br><br>
+</div>
 
-<p id="demo">A Paragraph.</p>
+<div>
+  <h2>Link to a js file is in body</h2>
+  <p id="par2">Let's change this text.</p>
+  <button onclick="changeIt2()">Клац!</button>
+  <br><br>
+</div>
 
-<button onclick="myFunction()">Try it</button>
 
-<h2>JS link is in body</h2>
+<div>
+  <h2>Some internal js object that is impossssible to export to separate js file</h2>
+  <p id="par3"></p>
+</div>
+<script>
+  var person = {
+    firstName: "Mike",
+    lastName: "Juggernaut",
+    id: 5566,
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  };
+document.getElementById("par3").innerHTML = person.fullName();
+</script>
 
-<p id="change02">Let's change this.</p>
-
-<button onclick="changeIt2()">Клац!</button>
 
 </body>
 </html>
