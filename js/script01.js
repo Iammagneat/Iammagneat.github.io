@@ -1,8 +1,9 @@
-var person = {
-  firstName: "John",
-  lastName: "Doe"
-};
+//js in head
+function myFunction() {
+ document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
 
-alert(
-person.firstName
-);
+//js in body
+function changeIt2() {
+  document.getElementById("change02").innerHTML = "АГАА!!!";
+}
