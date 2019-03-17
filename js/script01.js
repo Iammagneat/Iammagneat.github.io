@@ -1,9 +1,9 @@
 //js in head
-function myFunction() {
- document.getElementById("demo").innerHTML = "Paragraph changed.";
+function changeThis1() {
+ document.getElementById("par1").innerHTML = "Paragraph changed.";
 }
 
 //js in body
 function changeIt2() {
-  document.getElementById("change02").innerHTML = "АГАА!!!";
+  document.getElementById("par2").innerHTML = "АГАА!!!";
 }
