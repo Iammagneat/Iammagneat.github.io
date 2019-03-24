@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>2nd branch</title>
+  <title>dev</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script01.js"></script>
 </head>
@@ -9,18 +9,18 @@
 <body>
 
 <div id="feat_01">
-  <h2>01 - Link to a js file is in Head</h2>
+  <h2 id="hea1">01 - Link to a js file is in Head</h2>
   <p id="par1">This is a Paragraph!</p>
   <button onclick="changeThis1()">Try it</button>
   <br><br>
-</div>
+</div> <hr>
 
 <div id="feat_02">
   <h2>02 - Link to a js file is in body</h2>
   <p id="par2">Let's change this text.</p>
   <button onclick="changeIt2()">Click me</button>
   <br><br>
-</div>
+</div><hr>
 
 <div id="feat_03">
   <h2>03 - Expression <em>This</em> is internal object that is impossssible to export to separate js file</h2>
@@ -36,10 +36,10 @@
     };
     document.getElementById("par3").innerHTML = person.fullName();
   </script>
-</div>
+</div><hr>
 
 <div id="feat_04>"
-  </div><br>
+</div>
   <script src="js/script02.js"></script>
 
 <div id="feat_05">
@@ -54,17 +54,17 @@
     };
   document.getElementById("par4").innerHTML=(test.blabla());
   </script>
-</div><br>
+</div><hr><br>
 
 <div id="feat_06">
   <button onclick="this.innerHTML=Date()">06 - The time is?</button>
   <br><br>
-</div>
+</div><hr><br>
 
 <div id="feat_07"><!--но другие escape-теги\ не работают тут-->
   <button onclick="alert('Hello!\nBonjorno!\nСалют!')">07 - Hello?</button>
   <br><br>
-</div>
+</div><hr>
 
 <!--сделать фон белым по нажатию кнопки-->
 <!--
@@ -78,7 +78,12 @@
 <div id="feat_09" onmouseover="mouseOver01()" onmouseout="mouseOut01()">
   <script src="js/script04.js"></script>
   <p>09 - Get your mouse over here!</p>
-</div><br>
+</div><hr><br>
+
+<div id="feat_10">
+  <button onclick="toUp1()">10 - Up, up!</button>
+  <script src="js/script05.js"></script>
+</div>
 
 </body>
 </html>
