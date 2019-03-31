@@ -1,92 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>dev</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script01.js"></script>
-</head>
+	<title>dev</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script01.js"></script>
+	</head>
 
 <body>
 
-  <div class="nav"><a href="page2.html">Page 2</a></div>
+<div class="header">
+	<h1>Welcome</h1>
+	<p>1 more line below the header</p>
+	</div>
 
-<div id="feat_01">
-  <h2 id="hea1">01 - Link to a js file is in Head</h2>
-  <p id="par1">This is a Paragraph!</p>
-  <button onclick="changeThis1()">Try it</button>
-  <br><br>
-</div> <hr>
+<div class="topnav">
+	<a href="index.html"><u>UR.here</u></a>
+	<a href="page2.html">Page 2</a>
+	<a href="page3.html">Page 3</a>
+	<a href="page4.html">Page 4</a>
+	</div>
 
-<div id="feat_02">
-  <h2>02 - Link to a js file is in body</h2>
-  <p id="par2">Let's change this text.</p>
-  <button onclick="changeIt2()">Click me</button>
-  <br><br>
-</div><hr>
+<!-- ===|-----------------------|=== -->
 
-<div id="feat_03">
-  <h2>03 - Expression <em>This</em> is internal object that is impossssible to export to separate js file</h2>
-  <p id="par3"></p>
-  <script>
-    var person = {
-      firstName: "Mike",
-      lastName: "Juggernaut",
-      id: 5566,
-      fullName: function() {
-        return this.firstName + " " + this.lastName;
-      }
-    };
-    document.getElementById("par3").innerHTML = person.fullName();
-  </script>
-</div><hr>
+<div class="cont1">
 
-<div id="feat_04">
-  <h2>04 - Alert on page load</h2>
-  <p>Turned off for testing</p>
-  </div><hr>
-  <!--<script src="js/script02.js"></script>-->
+	<div id="feat_01" class="block">
+		<h2 id="hea1">01 - Link to a js file is in Head</h2>
+		<p id="par1">This is a Paragraph!</p>
+		<button onclick="changeThis1()">Try it</button>
+		<br><br>
+		</div> <hr>
 
-<div id="feat_05">
-  <h2>05 - Again expresstion <em>This</em>:</h2>
-  <p id="par4"></p>
-  <script>
-    var test = {
-      age: 41,
-      blabla: function() {
-        return this.age;
-      },
-    };
-  document.getElementById("par4").innerHTML=(test.blabla());
-  </script>
-</div><hr>
+	<div id="feat_02" class="block">
+		<h2>02 - Link to a js file is in body</h2>
+		<p id="par2">Let's change this text.</p>
+		<button onclick="changeIt2()">Click me</button>
+		<br><br>
+		</div><hr>
 
-<div id="feat_06">
-  <button onclick="this.innerHTML=Date()">06 - The time is?</button>
-  <br><br>
-</div><hr>
+	<div id="feat_03" class="block">
+		<h2>03 - Expression <em>This</em> is internal object that is impossssible to export to separate js file</h2>
+		<p id="par3"></p>
+		<script>
+			var person = {
+				firstName: "Mike",
+				lastName: "Juggernaut",
+				id: 5566,
+				fullName: function() {
+					return this.firstName + " " + this.lastName;
+				}
+			};
+			document.getElementById("par3").innerHTML = person.fullName();
+		</script>
+		</div><hr>
 
-<div id="feat_07"><!--но другие escape-теги\ не работают тут-->
-  <button onclick="alert('Hello!\nBonjorno!\nСалют!')">07 - Hello?</button>
-  <br><br>
-</div><hr>
+	<div id="feat_04" class="block">
+		<h2>04 - Alert on page load</h2>
+		<p>Turned off for testing</p>
+		</div><hr>
+		<!--<script src="js/script02.js"></script>-->
 
-<!--сделать фон белым по нажатию кнопки-->
-<!--
-<div id="feat_08"> <
-  <script src="js/script03.js"></script>
-  <button onclick="BgWhite1()">08 - Да будет свет!</button>
-</div>
--->
+	<div id="feat_05" class="block">
+		<h2>05 - Again expresstion <em>This</em>:</h2>
+		<p id="par4"></p>
+		<script>
+			var test = {
+				age: 41,
+				blabla: function() {
+					return this.age;
+				},
+			};
+		document.getElementById("par4").innerHTML=(test.blabla());
+		</script>
+		</div><hr>
 
-<div id="feat_09" onmouseover="mouseOver01()" onmouseout="mouseOut01()">
-  <script src="js/script04.js"></script>
-  <p>09 - Get your mouse over here!</p>
-</div><hr>
+	<div id="feat_06" class="block">
+		<button onclick="this.innerHTML=Date()">06 - The time is?</button>
+		<br>
+		</div><hr>
 
-<div id="feat_10">
-  <button onclick="toUp1()">10 - Up, up!</button>
-  <script src="js/script05.js"></script>
-</div>
+	<div id="feat_07" class="block"><!--но другие escape-теги\ не работают тут-->
+		<button onclick="alert('Hello!\nBonjorno!\nСалют!')">07 - Hello?</button>
+		<br>
+		</div><hr>
+
+	<!--сделать фон белым по нажатию кнопки-->
+	<!--
+	<div id="feat_08"> <
+		<script src="js/script03.js"></script>
+		<button onclick="BgWhite1()">08 - Да будет свет!</button>
+	</div>
+	-->
+
+	<div id="feat_09"  class="block" onmouseover="mouseOver01()" onmouseout="mouseOut01()">
+		<script src="js/script04.js"></script>
+		<p>09 - Get your mouse over here!</p>
+		</div><hr>
+
+	<div id="feat_10" class="block">
+		<button onclick="toUp1()">10 - Up, up!</button>
+		<script src="js/script05.js"></script>
+		</div>
+	</div>
 
 </body>
 </html>

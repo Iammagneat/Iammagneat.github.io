@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+}
+
+.header {
+	text-align: center;
+	border: 1px solid black;
+	padding-bottom: 20px;
+	}
+
+.cont1 {
+	margin: 10px;
+	padding: 0px;
+	text-align: center;
+	}
+
+.box {
+	border: 1px dotted green;
+	width: 32%;
+/*	padding: 7px; */
+	background-color: #FDFF70FF;
+/*	margin-top: 4px; */
+	}
+
+
+.box h2 {
+	text-align: center;
+	}
+
+.box p {
+	text-align: center;
+	text-decoration: overline;
+	}
+
+
+#id01, #id02, #id03 {
+	background-color: lightblue;
+	display: inline-block;
+	}
+
+.cont2 {
+	margin: 10px;
+	padding: 0px;
+	text-align: center;
+	}
+
+.spn1 {
+	background-color: red;
+	width: 70px;
+}
+
+/*
+.shmox {
+	border: 1px dotted green;
+	width: 32%;
+	padding: 7px;
+	background-color: #F4A3DAFF;
+	margin-top: 4px;
+	}*/

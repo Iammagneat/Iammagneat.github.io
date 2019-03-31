@@ -1,0 +1,24 @@
+body {
+	background-color: #33ccff;
+background: linear-gradient(to right,  #33ccff 0%, #66ff66 120%);
+  margin: 30px;
+}
+
+div {
+	padding: 10px;
+	margin: 20px;
+	border: 5px solid #fff;
+	display: flex;
+/*  border-spacing:
+	border-style: dotted;
+*/  
+}
+
+.nav{
+  width: 90px;
+  height: 20px;
+  border: 1px solid white;
+  flex-direction: row;
+  flex-wrap: wrap;
+/*  text-align: center; */
+}
