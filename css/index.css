@@ -1,6 +1,7 @@
 body {
 	background-color: #33ccff;
-	background: linear-gradient(to right,  #33ccff 0%, #66ff66 110%);
+/*	background: linear-gradient(to right,  #33ccff 0%, #66ff66 110%); */
+	background: linear-gradient(to right,  #33ccff 0%, white 110%);
 	margin: 0;
 }
 
@@ -14,18 +15,19 @@ body {
 /* Top navigation bar */
 .topnav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: transparent;
+	border-bottom: 1px solid white;
 }
 
 /* Topnav links */
 .topnav a {
 	float: left;
 	display: block;
-	width:  90px;
-	color: #f2f2f2;
+	width:  80px;
+	color: black;
 	text-align: center;
 	text-decoration: none;
-	padding: 14px 16px;
+	padding: 10px 10px;
 }
 
 /* Change color on hover */
@@ -40,10 +42,25 @@ body {
 	text-decoration-line: line-through;
 }*/
 
+.cont1 {
+	margin: 0px;
+	text-align: center;
+}
+
+/*table {
+	color: red;
+	border: 1px solid blue;
+}*/
+
+
+
 .block {
+	width: 32%;
 	padding-left: 0px; 
-	margin-left: 15px;
-	border: 0px solid white;
+	margin-left: 0px;
+	text-align: center;
+	border: 1px dotted green;
+	display: inline-block;
 }
 
 #feat_09 {
