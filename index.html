@@ -13,113 +13,99 @@
 
 <div class="header">
 	<h1>Welcome</h1>
-<!-- 	<p>1 more line below the header</p>
- -->	</div>
+	</div>
 
 <div class="topnav">
 	<a href="index.html"><u>UR.here</u></a>
 	<a href="page2.html">Page 2</a>
-	<a href="page3.html">Page 3</a>
-	<a href="page4.html">Page 4</a>
+	<a href="page4.html">Page 3</a>
+<!-- 	<a href="page3.html">Page 4</a> -->
 	</div>
 
 <!-- ===== MAIN ===== -->
 
 <div class="cont1">
-<!-- 	<table>
+	<table>
 		<tr>
-			<td>1edfdfgdfg</td>
-			<td>2</td>
-			<td>3</td>
+			<td id="td01">
+				<div id="feat_01" class="block">
+					<h2 id="hea1">01 - Link to a js file is in Head</h2>
+					<p id="par1">This is a Paragraph!</p>
+					<button onclick="changeThis1()">01 - Try it</button>
+					<button onclick="toUp1()">10 - Up!</button>
+					<script src="js/script05.js"></script>
+					<br><br>
+					</div>
+			</td>
+			<td id="td02">
+				<div id="feat_02" class="block">
+					<h2>02 - Link to a js file is in body</h2>
+					<p id="par2">Let's change this text.</p>
+					<button onclick="changeIt2()">Click me</button>
+					</div>
+			</td>
+			<td id="td03">
+				<div id="feat_03" class="block">
+					<h2>03 - Expression <em>This</em></h2>
+					<p id="par3"></p>
+					<script src="js/script03.js"></script>
+					</div>
+			</td>
 		</tr>
 		<tr>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
+			<td id="td04">
+				<div id="feat_04" class="block">
+					<h2>04 - Alert on page load</h2>
+					<p>Turned off for testing</p>
+					</div><!-- <hr> -->
+					<!--<script src="js/script02.js"></script>-->
+			</td>
+			<td id="td05">
+				<div id="feat_05" class="block">
+					<h2>05 - Again expresstion <em>This</em>:</h2>
+					<p id="par4"></p>
+					<script src="js/script06.js"></script>
+					</div>
+			</td>
+			<td id="td06">
+				<div id="feat_06" class="block">
+					<h2></h2>
+					<p> </p>
+					<button onclick="this.innerHTML=Date()">06 - The time is?</button><br>
+					<button onclick="alert('Hello!\nBonjorno!\nСалют!')">07 - Hello?</button><!-- но другие escape-теги тут не работают -->
+					<br>
+					</div>
+			</td>
 		</tr>
 		<tr>
-			<td>7</td>
-			<td>8</td>
-			<td>9</td>
+			<!--сделать фон белым по нажатию кнопки-->
+			<td id="td07">Tbd
+<!-- 				<div id="feat_08"> <
+						<script src="js/script03.js"></script>
+						<button onclick="BgWhite1()">08 - Да будет свет!</button>
+					</div>
+ -->			</td>
+			<td id="td08">
+				<div id="feat_09"  class="block" onmouseover="mouseOver01()" onmouseout="mouseOut01()">
+					<script src="js/script04.js"></script>
+					<p>09 - Get your mouse over here!</p>
+					</div>
+			</td>
+			<td id="td09">
+				<div id="feat_10" class="block">
+					<h2 id="h2_10">10 - Let's count where word "website" is...</h2>
+					<span>It's on position </span><span id="spn10"></span><span>, isn't it? (count starts from 0)	</span>
+					</div>
+					<script src="js/script10.js"></script>
+			</td>
 		</tr>
-	</table> -->
+	</table>
 
-	<div id="feat_01" class="block">
-		<h2 id="hea1">01 - Link to a js file is in Head</h2>
-		<p id="par1">This is a Paragraph!</p>
-		<button onclick="changeThis1()">01 - Try it</button>
-		<button onclick="toUp1()">10 - Up!</button>
-		<script src="js/script05.js"></script>
-		<br><br>
-		</div> 
 
-	<div id="feat_02" class="block">
-		<h2>02 - Link to a js file is in body</h2>
-		<p id="par2">Let's change this text.</p>
-		<button onclick="changeIt2()">Click me</button>
-		<br><br>
-		</div>
-
-	<div id="feat_03" class="block">
-		<h2>03 - Expression <em>This</em></h2>
-		<p id="par3"></p>
-		<script src="js/script03.js"></script>
-<!-- 		<script>
-			var person = {
-				firstName: "Mike",
-				lastName: "Juggernaut",
-				id: 5566,
-				fullName: function() {
-					return this.firstName + " " + this.lastName;
-				}
-			};
-			document.getElementById("par3").innerHTML = person.fullName();
-		</script> -->
-		</div><!-- <hr> -->
-
-	<div id="feat_04" class="block">
-		<h2>04 - Alert on page load</h2>
-		<p>Turned off for testing</p>
-		</div><!-- <hr> -->
-		<!--<script src="js/script02.js"></script>-->
-
-	<div id="feat_05" class="block">
-		<h2>05 - Again expresstion <em>This</em>:</h2>
-		<p id="par4"></p>
-		<script>
-			var test = {
-				age: 41,
-				blabla: function() {
-					return this.age;
-				},
-			};
-		document.getElementById("par4").innerHTML=(test.blabla());
-		</script>
-		</div>
-
-	<div id="feat_06" class="block">
-		<button onclick="this.innerHTML=Date()">06 - The time is?</button><br>
-		<button onclick="alert('Hello!\nBonjorno!\nСалют!')">07 - Hello?</button><!-- но другие escape-теги тут не работают -->
-		<br>
-		</div>
-
-<!-- 	<div id="feat_07" class="block">
-		<button onclick="alert('Hello!\nBonjorno!\nСалют!')">07 - Hello?</button>
-		<br>
-		</div>
- -->
-	<!--сделать фон белым по нажатию кнопки-->
+	
 	<!--
-	<div id="feat_08"> <
-		<script src="js/script03.js"></script>
-		<button onclick="BgWhite1()">08 - Да будет свет!</button>
-	</div>
+	
 	-->
-
-	<div id="feat_09"  class="block" onmouseover="mouseOver01()" onmouseout="mouseOut01()">
-		<script src="js/script04.js"></script>
-		<p>09 - Get your mouse over here!</p>
-		</div><!-- <hr> -->
 
 
 </body>
