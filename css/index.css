@@ -44,7 +44,7 @@ body h2 {
 .cont1 {
 	margin-top: 1rem;
 	text-align: center;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 table {
