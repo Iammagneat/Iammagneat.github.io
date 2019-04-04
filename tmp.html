@@ -2,32 +2,35 @@
 <html>
 <!-- ===== HEAD ===== -->
 <head>
-	<meta charset="UTF-8">
-	<title>tmp</title>
-	<link rel="stylesheet" href="css/new.css">
+	<!-- <meta charset="UTF-8"> -->
+	<title>dev - tmp</title>
+	<link rel="stylesheet" href="css/tmp.css">
 	</head>
 
 <!-- ===== BODY ===== -->
 <body>
 
-<!-- <div class="header">
-	<h1>Welcome</h1>
+<!-- <div class="cont1"> -->
+<div class="zero">
+	<div class="first">
+		<div id="feat_09" class="second" onmouseover="mouseOver01()" onmouseout="mouseOut01()">
+			09 - Get your mouse over here!
+		</div>
 	</div>
- -->
-<!-- ===== MAIN ===== -->
+</div>
+<script>
+function mouseOver01() {
+	document.getElementById("feat_09").innerHTML = "09 - I've got your mouse now!";
+	document.getElementById("feat_09").style.color = "red";
+}
 
-	<div id="feat_09"  class="block" onmouseover="mouseOver01()" onmouseout="mouseOut01()">
-		<script src="js/script04.js"></script>
-		<p>09 - Get your mouse over here!</p>
-		</div>
+function mouseOut01() {
+	document.getElementById("feat_09").innerHTML = "09 - Get your mouse over here!";
+	document.getElementById("feat_09").style.color = "black";
+}
+</script>
 
-	<div>
-		<p id="p10">Here's some text we have to count through</p>
-		<span>Numbers to the word through: </span>
-		<span id="spn10"></span>
-		<p id="count01"></p>
-		</div>
-		<script src="js/script10.js"></script>
+<!-- <script src="js/script04.js"></script> -->
 
 </body>
 </html>

@@ -1,3 +1,27 @@
-#feat_09 {
-	background-color: green;
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.zero {
+	display: table;
+	width: 24rem;
+	height: 8rem;
+	border: 0px solid black;
+}
+
+.first {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background-color: lightblue;
+	border: 0px solid red;
+}
+
+.second {
+	display: inline-block;
+	width: 8rem;
+	/*height: 60px;*/
+	background-color: yellow;
+	border: 0px solid blue;
 }

@@ -2,13 +2,22 @@ body {
 	background-color: lightblue;
 }
 
+.cont1 {
+	text-align: center;
+}
+
 .block {
 /*	border: 1px solid blue;*/
 	background-color: yellow;
-	width: 8rem;
-	height: 4rem;
+	width: 20%;
+	height: 10rem;
 	padding-top: 0.2rem;
+	margin-top: 2rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	vertical-align: middle;
 	text-align: center;
-
+	display: inline-block;
+	overflow-y: visible;
 
 }

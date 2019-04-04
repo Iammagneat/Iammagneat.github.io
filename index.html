@@ -3,7 +3,7 @@
 <!-- ===== HEAD ===== -->
 <head>
 	<meta charset="UTF-8">
-	<title>dev</title>
+	<title>dev - index</title>
 	<link rel="stylesheet" href="css/index.css">
 	<script src="js/script01.js"></script>
 	</head>
@@ -23,148 +23,71 @@
 <!-- ===== MAIN ===== -->
 
 <div class="cont1">
-	<table>
-		<tr>
+	<div id="feat_01" class="block">
+		<h2 id="hea1">01 - Link to a js file is in Head</h2>
+		<p id="par1">This is a Paragraph!</p>
+		<button onclick="changeThis1()">01 - Try it</button>
+		<button onclick="toUp1()">10 - Up!</button>
+		<script src="js/script05.js"></script>
+		</div>
 
-<!-- 			<td id="td01">
-				<div id="feat_01" class="block">
-					<h2 id="hea1">01 - Link to a js file is in Head</h2>
-					<p id="par1">This is a Paragraph!</p>
-					<button onclick="changeThis1()">01 - Try it</button>
-					<button onclick="toUp1()">10 - Up!</button>
-					<script src="js/script05.js"></script>
+	<div id="feat_02" class="block">
+		<h2>02 - Link to a js file is in body</h2>
+		<p id="par2">Let's change this text.</p>
+		<button onclick="changeIt2()">02 - Click me</button>
+		</div>
 
-					<br><br>
-					</div>
-				</td>
+	<div id="feat_03" class="block">
+		<h2>03 - Expression <em>This</em></h2>
+		<p id="par3"></p>
+		<script src="js/script03.js"></script>
+		</div>
 
-			<td id="td02">
-				<div id="feat_02" class="block">
-					<h2>02 - Link to a js file is in body</h2>
-					<p id="par2">Let's change this text.</p>
-					<button onclick="changeIt2()">02 - Click me</button>
-					</div>
-				</td>
+	<div id="feat_04" class="block">
+		<h2>04 - Alert on page load</h2>
+		<p>Turned off for testing</p>
+		</div>
 
-			<td id="td03">
-				<div id="feat_03" class="block">
-					<h2>03 - Expression <em>This</em></h2>
-					<p id="par3"></p>
-					<script src="js/script03.js"></script>
-					</div>
-				</td> -->
+	<div id="feat_05" class="block">
+		<h2>05 - Again expresstion <em>This</em>:</h2>
+		<p id="par4"></p>
+		<script src="js/script06.js"></script>
+		</div>
 
-			<td id="td01">
-				<div id="feat_01" class="block">
-					<h2 id="hea1">01 - Link to a js file is in Head</h2>
-					<p id="par1">This is a Paragraph!</p>
-					<button onclick="changeThis1()">01 - Try it</button>
-					<button onclick="toUp1()">10 - Up!</button>
-					<script src="js/script05.js"></script>
-					</div>
-			</td>
-			<td id="td02">
-				<div id="feat_02" class="block">
-					<h2>02 - Link to a js file is in body</h2>
-					<p id="par2">Let's change this text.</p>
-					<button onclick="changeIt2()">02 - Click me</button>
-					</div>
-			</td>
-			<td id="td03">
-				<div id="feat_03" class="block">
-					<h2>03 - Expression <em>This</em></h2>
-					<p id="par3"></p>
-					<script src="js/script03.js"></script>
-					</div>
-			</td>
+	<div id="feat_06" class="block">
+		<h2></h2>
+		<p> </p>
+		<button onclick="this.innerHTML=Date()">06 - The time is?</button><br><br>
+		<button onclick="alert('Hello!\nBonjorno!\nСалют!')">07 - Hello?</button><!-- но другие escape-теги тут не работают -->
+		<br>
+		</div>
 
-		</tr>
-		<tr>
+<!--сделать фон белым по нажатию кнопки-->
+	<div id="feat_08" class="block">
+		<h2>08 - Tbd</h2>
+		</div>
+<!--<div id="feat_08"> <
+		<script src="js/script03.js"></script>
+		<button onclick="BgWhite1()">08 - Да будет свет!</button>
+		</div> -->
 
-			<td id="td04">
-				<div id="feat_04" class="block">
-					<h2>04 - Alert on page load</h2>
-					<p>Turned off for testing</p>
-					</div><!-- <hr> -->
-					<!--<script src="js/script02.js"></script>-->
-				</td>
+	<div id="feat_09"  class="block">
+		<h2>09</h2>
+		<div id="feat_09btn" onmouseover="mouseOver01()" onmouseout="mouseOut01()">Get your mouse over here!</div>
+		</div><script src="js/script04.js"></script>
 
-			<td id="td05">
-				<div id="feat_05" class="block">
-					<h2>05 - Again expresstion <em>This</em>:</h2>
-					<p id="par4"></p>
-					<script src="js/script06.js"></script>
-					</div>
-				</td>
-
-			<td id="td06">
-				<div id="feat_06" class="block">
-					<h2></h2>
-					<p> </p>
-					<button onclick="this.innerHTML=Date()">06 - The time is?</button><br><br>
-					<button onclick="alert('Hello!\nBonjorno!\nСалют!')">07 - Hello?</button><!-- но другие escape-теги тут не работают -->
-					<br>
-					</div>
-				</td>
-
-		</tr>
-		<tr>
-			<!--сделать фон белым по нажатию кнопки-->
-			<td id="td07">Tbd
-<!-- 				<div id="feat_08"> <
-						<script src="js/script03.js"></script>
-						<button onclick="BgWhite1()">08 - Да будет свет!</button>
-					</div>
- -->			</td>
-
-			<td id="td08">
-				<div id="feat_09"  class="block" onmouseover="mouseOver01()" onmouseout="mouseOut01()">
-					<script src="js/script04.js"></script>
-					<p>09 - Get your mouse over here!</p>
-					</div>
-				</td>
-
-			<td id="td09">
-				<div id="feat_11" class="block">
-					<h2 id="h2_11">11 - Let's count where the word "count" is...</h2>
-					<span>It's on position </span><span id="spn11"></span><span>, isn't it? (counts from 0)	</span>
-					</div>
-					<script src="js/script11.js"></script>
-				</td>
-
-		</tr>
-		<tr>
-			<td id="td10">
-				<div id="feat_12" class="block">
-					<h2 id="h2_12">12 - <em>substring()</em> and <em>slice()</em> are similar methods</h2>
-					<span>There are </span><span id="spn12"></span><span> symbols in the line above,<br>incl. two &ltem>&lt/em> tags.<br>And by slicing out symbols 35 through 54, we get: <br></span><b><span id="spn12.2"></span></b>
-					
-					</div>
-					<script src="js/script12.js"></script>
-				</td>
-
-<!-- 11 - <em>substring()</em> and <em>slice()</em> are similar methods.
- -->
-			<td id="td11">
-				<div>
-					
-					</div>
-				</td>
-			<td id="td12">
-				<div>
-					
-					</div>
-				</td>
-	
-		</tr>
-	</table>
-
-
-	
-	<!--
-	
-	-->
-
+	<div id="feat_11" class="block">
+		<h2 id="h2_11">11 - Let's count where the word "count" is...</h2>
+		<span>It's on position </span><span id="spn11"></span><span>, isn't it? (counts from 0)	</span>
+		</div>
+		<script src="js/script11.js"></script>
+	<div></div>
+	<div id="feat_12" class="block">
+		<h2 id="h2_12">12 - <em>substring()</em> and <em>slice()</em> are similar methods</h2>
+		<span>There are </span><span id="spn12"></span><span> symbols in the line above, incl. two &ltem>&lt/em> tags.<br>And by slicing out symbols 35 through 54, we get: <br></span><b><span id="spn12.2"></span></b>
+		</div>
+		<script src="js/script12.js"></script>	
+		<!-- <br><br><br><br><hr> -->
 
 </body>
 </html>
