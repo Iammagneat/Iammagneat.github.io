@@ -1,5 +1,31 @@
 body {
+	padding: 0;
+	margin: 0;
 	background-color: lightblue;
+}
+
+#idж {
+	/*display: table;*/
+	/*vertical-align: middle;*/
+	position: absolute;
+	text-align: center;
+}
+
+#Ж {
+	padding: 0;
+	margin: 0;
+	width: 99.8%;
+	height: 680px;
+	top: 50%;
+	font-size: 30rem;
+	position: absolute;
+	/*z-index: -1;*/
+	opacity: 0.5;
+	display: inline-block;
+	text-align: center;
+	vertical-align: bottom;
+	/*background-blend-mode: color-burn;*/
+	border: 1px dotted green;
 }
 
 .cont1 {
@@ -7,7 +33,7 @@ body {
 }
 
 .block {
-/*	border: 1px solid blue;*/
+	border: 1px solid blue;
 	background-color: yellow;
 	width: 20%;
 	height: 10rem;
@@ -19,5 +45,6 @@ body {
 	text-align: center;
 	display: inline-block;
 	overflow-y: visible;
+	/*opacity: 0.5;*/
 
 }
