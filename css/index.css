@@ -1,0 +1,146 @@
+body
+{
+    overflow-y: visible;
+
+    margin: 0;
+
+    /*	background: linear-gradient(to right,  #33ccff 0%, #66ff66 110%); */
+    background: linear-gradient(to right,  #3cf 0%, white 110%);
+    background-color: #3cf;
+}
+
+body h2
+{
+    font-size: 1.3rem;
+    /*line-height: 1rem;*/
+}
+
+.header
+{
+    margin-bottom: -2rem;
+    padding-top: .5rem;
+
+    text-align: center;
+
+    /*	background-color: #A1E0BBFF;*/
+    background-color: transparent;
+}
+
+/* Top navigation bar */
+.topnav
+{
+    overflow: hidden;
+
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+/* Topnav links */
+.topnav a
+{
+    display: block;
+    float: left;
+
+    width: 4rem;
+    padding: 10px 10px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: black;
+}
+
+/* Change color on hover */
+.topnav a:hover
+{
+    color: black;
+    background-color: #ddd;
+}
+
+.contShort
+{
+    /*overflow-y: all;*/
+    margin-top: 0rem;
+
+    text-align: center;
+
+    /*border: 1px dotted green;*/
+}
+
+.blockShort
+{
+    display: inline-block;
+    overflow-y: visible;
+
+    /*width: 20rem;*/
+    width: 24%;
+    min-width: 11rem;
+    height: 8rem;
+    margin-top: 1rem;
+    /*margin-right: .4rem;*/
+    /*margin-left: .4rem;*/
+    padding-top: .2rem;
+
+    text-align: center;
+    vertical-align: middle;
+
+    /*border: 1px dotted blue;*/
+}
+
+.contLong
+{
+    /*overflow-y: all;*/
+    margin-top: 0rem;
+
+    text-align: center;
+
+    /*border: 1px dotted red;*/
+}
+
+.blockLong
+{
+    display: inline-block;
+    overflow-y: visible;
+
+    width: 42%;
+    min-width: 27rem;
+    height: 8rem;
+    margin-top: 1rem;
+    margin-right: .2rem;
+    margin-left: .2rem;
+    padding-top: .2rem;
+
+    text-align: center;
+    vertical-align: middle;
+
+    /*border: 1px dotted blue;*/
+}
+
+#feat_06
+{
+    padding-top: 0;
+}
+
+#feat_09
+{
+    position: relative;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#feat_09btn
+{
+    position: absolute;
+
+    display: inline-block;
+
+    width: 8rem;
+    height: 2.4rem;
+    /*margin-top: -0.5rem;*/
+    margin-top: 0;
+    margin-left: -4rem;
+
+    border: 1px solid red;
+    background-color: #ff6;
+}
