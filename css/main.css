@@ -1,0 +1,21 @@
+.container {
+	background: lightblue;
+}
+
+.row {
+	background: red;
+	height: 200px;
+}
+
+.row div {
+	text-align: center;
+	height: 50px;
+}
+
+.row div:nth-child(odd) {
+	background: yellow;
+}
+
+.row div:nth-child(even) {
+	background: lightgreen;
+}
