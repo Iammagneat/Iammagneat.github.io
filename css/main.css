@@ -1,21 +1,24 @@
+body {
+  background: url("railroad.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h3 {
+	/*margin-top: 30px;*/
+}
+
 .container {
-	background: lightblue;
+	float: left;
+	opacity: 0.7;
 }
 
-.row {
-	background: blue;
-	height: 200px;
+.card {
+	margin-left: 5%;
+	width: 70%;
 }
 
-.row div {
-	text-align: center;
-	height: 50px;
-}
-
-.row div:nth-child(odd) {
-	background: yellow;
-}
-
-.row div:nth-child(even) {
-	background: lightgreen;
+.card-body {
 }
