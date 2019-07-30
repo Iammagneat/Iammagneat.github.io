@@ -1,101 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<title>Resume</title>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
+	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" media="(max-device-width: 650px)" href="mobile.css" />
 </head>
+
 <body>
 
-<!-- NAVIGATION -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
-  <div class="container">
-    <a class="navbar-brand">Resume</a>
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html#summary">Summary
-                <span class="sr-only">(current)</span>
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#academic">Academic rec</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#contacts">Contacts</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- CONTENT START -->
 <div class="container">
-  <div class="card border-0 shadow my-5;">
-    <div class="card-body p-5">
-
-<!-- HEADER -->
-      <h1 class="font-weight-light text-center">Anton Magurskyi</h1>
-      <h3 class="font-weight-light text-center">QA Engineer</h3>
-      <br>
+	<div class="block" id="head">
+		<h1>Anton Magurskyi</h1>
+		<h2>QA Engineer</h2>
+	</div>
 
 <!-- SUMMARY -->
-      <h3 class="font-weight-light text-left" id="summary">Summary</h3>
-      <div class="col text-left" id="list">
-        <ul>
-        <li>3,5 years experience as manual QA Engineer.</li>
-        <li>Testing software, firmware and hardware.</li>
-        <li>Writing and performing test cases, bug tracking in Jira.</li>
-        <li>HTML, CSS, Bootstrap.</li>
-        <li>Git, Github, Postman, Selenium, IntelliJ IDEA user.</li>
-        <li>Javascript and Java programming experience.</li>
-        <li>Windows and OSX user. Some experience with Linux.</li>
-        <li>Proficient in written and spoken English. </li>
-        <li>German language as a beginner.</li>
-        <li>Working towards mastering automation testing.</li>
-        </ul>
-      </div>
-      <br>
+	<div class="block" id="summary">
+    	<h2>Summary</h2>
+    	<div id="list">
+        	<ul>
+	        <li>3,5 years experience as manual QA Engineer.</li>
+	        <li>Testing software, firmware and hardware.</li>
+	        <li>Writing and performing test cases, bug tracking in Jira.</li>
+	        <li>HTML, CSS, Bootstrap.</li>
+	        <li>Git, Github, Postman, Selenium, IntelliJ IDEA user.</li>
+	        <li>Javascript and Java programming experience.</li>
+	        <li>Windows and OSX user. Some experience with Linux.</li>
+	        <li>Proficient in written and spoken English. </li>
+	        <li>German language as a beginner.</li>
+	        <li>Working towards mastering automation testing.</li>
+	        </ul>
+	    </div>
+	</div>		
 
-<!-- EXPERIENCE -->
-      <h3 class="font-weight-light text-left" id="experience">Experience</h3>
-      <p>2019<br><u>Freelancer</u>. API testing. Lerning Javascript and Java. Mobile application design.</p>
-      <p>2014-2018<br><u>Freelancer</u>. Video and audio production. Trading.</p>
-      <p>2010-2013<br><u>GlobalLogic</u>. QA Engineer.</p>
-      <p>2007-2009<br><u>Alan Company Ltd</u>. International contacts manager.</p>
-      <p>2006-2007<br><u>Film.ua</u> media production. Sound Producer.</p>
-      <p>2004-2006<br><u>Mamadu</u> media production. Sound Producer.</p>
-      <p>2002-2004<br><u>Z ranku do nochi</u> audio production. Sound Engineer.</p>
-      <br>
+<!-- EXPERIENCE -->		
+	<div class="block" id="experience">
+		<h2>Experience</h2>
+		<p>2019<br><u>Freelancer</u>. API testing. Lerning Javascript and Java. Mobile application design.</p>
+		<p>2014-2018<br><u>Freelancer</u>. Video and audio production. Trading.</p>
+		<p>2010-2013<br><u>GlobalLogic</u>. QA Engineer.</p>
+		<p>2007-2009<br><u>Alan Company Ltd</u>. International contacts manager.</p>
+		<p>2006-2007<br><u>Film.ua</u> media production. Sound Producer.</p>
+		<p>2004-2006<br><u>Mamadu</u> media production. Sound Producer.</p>
+		<p>2002-2004<br><u>Z ranku do nochi</u> audio production. Sound Engineer.</p>	
+	</div>
 
 <!-- ACADEMIC RECORD -->
-<h3 class="font-weight-light text-left" id="academic">Academic Record</h3>
-<p>2000-2005<br>European University, Kiev. Master’s degree in marketing.</p>
-<p>1999-2000<br> USA, Oregon. Graduating High School.</p>
-<br>
+	<div class="block" id="academic">
+		<h2>Academic Record</h2>
+		<p>2000-2005<br>European University, Kiev. Master’s degree in marketing.</p>
+		<p>1999-2000<br> USA, Oregon. Graduating High School.</p>
+	</div>
 
 <!-- CONTACTS -->
-      
-      <h3 class="font-weight-light text-left" id="contacts">Contacts</h3>
-      <p>+38(063)602-67-66 <br><a href="mailto:1100011@ukr.net">1100011@ukr.net</a></p>
+    <div class="block" id="contacts">
+    	<h2>Contacts</h2>
+    	<p>+38(063)602-67-66 <br><a href="mailto:1100011@ukr.net">1100011@ukr.net</a></p>
     </div>
-  </div>
-      <div style="margin-bottom: 850px"></div>
 </div>	
-	
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>	
 </body>
 </html>

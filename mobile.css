@@ -1,0 +1,45 @@
+html { 
+	font-size: calc(0.5em + 1vw);
+}
+
+body {
+	background-image: url(face.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	font-family: 'Cutive';
+}
+
+
+h1 {
+	font-weight: 100;
+	line-height: 1.4em;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+.container {
+	background-color: #fff;
+	width: 100%;
+	opacity: 0.9;
+	margin-bottom: 1800px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#head {
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.block {
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 1em;
+}

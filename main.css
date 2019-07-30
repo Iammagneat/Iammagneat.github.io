@@ -1,0 +1,43 @@
+html { 
+	font-size: calc(0.5em + 0.7vw)
+}
+
+body {
+	background-image: url(railroad.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Cutive';
+	line-height: 1.7em;
+}
+
+h1 {
+	font-weight: 100;
+	line-height: 1.4em;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+.container {
+	background-color: #fff;
+	width: 60%;
+	opacity: 0.8;
+	margin-bottom: 850px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#head {
+	text-align: center;
+}
+
+.block {
+	text-align: left;
+	padding: 0.5em 0;
+	margin-left: 2em;
+	margin-right: 1em;
+}
