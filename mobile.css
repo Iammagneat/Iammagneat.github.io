@@ -1,23 +1,9 @@
 html {
 	font-size: calc(0.5em + 1vw);
-    background: url('ava.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
 }
 
 body {
-	/*background-image: url('w3.gif');*/
-	/*height: 100%;*/
-	/*overflow: hidden;*/
-	/*background-size: auto 50%;*/
-
-	/*background-repeat: no-repeat;*/
-	/*background-attachment: fixed;*/
-	/*background-position: 20% 20%; */
+	background-image: none;
 	font-family: 'Cutive';
 }
 
