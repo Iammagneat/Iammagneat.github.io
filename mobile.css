@@ -1,10 +1,12 @@
-html {
-	font-size: calc(0.5em + 1vw);
+html { 
+	font-size: calc(0.5em + 0.7vw)
 }
 
 body {
 	background-image: none;
 	font-family: 'Cutive';
+	line-height: 1.7em;
+	background-color: #CAD1D7FF;
 }
 
 h1 {
@@ -12,26 +14,53 @@ h1 {
 	line-height: 1.4em;
 }
 
-h2 {
+h2, h3 {
 	font-weight: 100;
 }
 
-.container {
-	background-color: #fff;
+.column {
 	width: 100%;
-	/*opacity: 0.9;*/
-	margin-bottom: 0;
-	/*border-radius: 20px;*/
-	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
-#head {
-	text-align: center;
-	line-height: 1.5em;
+.head1 {
+	display: block;
+	margin-bottom: 3%;
+	margin-top: 0;
 }
 
-.block {
+#photo {
+	display: inline-block;
+	height: 70px;
+	vertical-align: middle;
+	border-radius: 15px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#text {
+	margin-left: 10%;
 	text-align: left;
-	margin-left: 1em;
-	margin-right: 1em;
+	width: 40%;
+}
+
+#picture {
+	text-align: right;
+	width: 40%;
+}
+
+.box {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.container {
+	width: 100%;
+	opacity: 1;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#head2 {
+	display: none;
+	text-align: left;
 }

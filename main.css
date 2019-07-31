@@ -22,16 +22,28 @@ h2 {
 	font-weight: 100;
 }
 
+.column {
+	width: 60%;
+}
+
+.head1 {
+	display: none;
+}
+
 .container {
 	background-color: #fff;
 	width: 60%;
 	opacity: 0.8;
-	margin-bottom: 850px;
+	margin-bottom: 20px;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-#head {
+#photo {
+	display: none;
+}
+
+#head2 {
 	text-align: center;
 }
 
