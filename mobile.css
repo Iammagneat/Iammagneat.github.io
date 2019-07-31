@@ -1,22 +1,21 @@
 html { 
 	font-size: calc(0.5em + 1vw);
-/*	background-image: url(face.jpg);
+	background-image: url(face.jpg);
 	background-position: center center;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
-	height: 100%;
-	overflow: hidden;*/
+	/*height: 100%;*/
+	/*overflow: hidden;*/
 }
 
 body {
-	/*background-image: url(face.jpg);*/
-	background-image: url('face.jpg');
-	background-size: 500px;
-	background-repeat: no-repeat;
+	/*background-image: url('face.jpg');*/
+	/*background-size: 500px;*/
+	/*background-repeat: no-repeat;*/
 	/*background-attachment: fixed;*/
 	/*background-position: 20% 20%; */
 	
@@ -36,7 +35,7 @@ h2 {
 	background-color: #fff;
 	width: 100%;
 	opacity: 0.9;
-	/*margin-bottom: 1800px;*/
+	margin-bottom: 1800px;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
